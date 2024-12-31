@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.design-1 .content .link-button {
+    background: linear-gradient(90deg, #92EBF1 0%, #86FDE8 100%);
+    padding-block: 20px;
+    padding-inline: 60px;
+}
+
+.design-1 .content .heading {
+    font-weight: 700;
+    color: #000000;
+}
+
+.design-1 .content .paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    color: #9A9EA5;
+}
+
+.design-2 {
+    background: url('./image/banner-image-1.png') no-repeat center / cover;
+}
+
+.design-2 .content .link-button {
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+    padding-block: 14px;
+    padding-inline: 50px;
+    text-transform: capitalize;
+}
+
+.design-3 {
+    background-color: #F3F6FD;
+    background-image: url('./image/banner-image-2.png');
+    background-repeat: no-repeat;
+    background-size: 640px;
+    background-position: right bottom;
+}
+
+.design-3 .content .link-button {
+    background: #5E5CE6;
+    padding-block: 20px;
+    padding-inline: 50px;
+    text-transform: capitalize;
+    box-shadow: 0px 4px 6px -4px #18274B1F;
+    border-radius: 30px;
+}
+
+.design-3 .content .text-lg {
+    color: #7B7E86;
+}
+
+.design-3 .content .heading .gradiant-title {
+    background: linear-gradient(90deg, #DA22FF 0%, #9733EE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.design-3 header .nav-btn {
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+    box-shadow: 0px 2px 4px -2px #18274B1F;
+}
+
+.design-4 {
+    background-color: #F6F2FF;
+    background-image: url('./image/design-4-banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.design-4 header .nav-btn {
+    border: 2px solid #8E54E9;
+    background: transparent;
+}
+
+.design-4 .link-button {
+    padding: 15px 50px;
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 6px -4px #18274B1F;
+}
+
+.design-4 .content .text-lg {
+    color: #505258;
+}
+
+.design-4 .content .heading {
+    color: #31135E;
+}
+
+.design-4 .content .heading .gradiant-title {
+    color: #8E54E9;
+}
+
+.design-5 .content .heading {
+    color: #491D8B;
+}
+
+.design-5 .content .text-lg {
+    color: #37383C;
+}
+
+.design-5 .link-button {
+    padding: 15px 50px;
+    border: 0;
+    background: #0A84FF;
+    box-shadow: 0px 4px 6px -4px #18274B1F;
+}
+
+.design-5 header .nav-btn {
+    border: 1px solid #000000;
+}
+
+.design-5 .row-wrapper {
+    background: #D6E4FE;
+    padding: 30px 5%;
+    border-radius: 30px;
+}
